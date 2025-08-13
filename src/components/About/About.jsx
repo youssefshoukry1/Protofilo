@@ -30,7 +30,7 @@ export default function About() {
 
   return (
     <div
-      id='about'
+      id="about-section"
       className="relative h-screen w-full flex flex-col justify-center items-center text-center px-4 overflow-hidden"
     >
       {/* الخلفية */}

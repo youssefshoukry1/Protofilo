@@ -29,7 +29,7 @@ export default function Projects() {
     <div
       className="relative w-full flex flex-col justify-center items-center text-center px-4 overflow-hidden mx-auto"
       style={{ minHeight: "100vh" }}
-      id="project"
+      id="project-section"
     >
       {/* الخلفية */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0099FF] to-[#00B347]"></div>

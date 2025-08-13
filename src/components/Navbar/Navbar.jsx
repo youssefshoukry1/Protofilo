@@ -4,10 +4,10 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
   const navItems = [
-    { name: "Home", path: "/", id: "home" },
-    { name: "About", path: "/", id: "about" }, // About جوه الصفحة الرئيسية
-    { name: "Project", path: "/", id: "project" },
-    { name: "Contact", path: "/", id: "contact" }
+    { name: "Home", path: "/", id: "home-section" },
+    { name: "About", path: "/", id: "about-section" }, // About جوه الصفحة الرئيسية
+    { name: "Project", path: "/", id: "project-section" },
+    { name: "Contact", path: "/", id: "contact-section" }
   ];
 
   const navigate = useNavigate();

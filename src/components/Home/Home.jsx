@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <>
-    <div id='home'   className="relative flex flex-col justify-center items-center h-screen text-white text-center px-4 overflow-hidden">
+    <div id="home-section"  className="relative flex flex-col justify-center items-center h-screen text-white text-center px-4 overflow-hidden">
       
       {/* خلفية جريدينت مشبع */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0099FF] to-[#00B347]"></div>
