@@ -91,64 +91,6 @@ export default function WorkDetails() {
         </motion.h2>
 
         <motion.div className="space-y-4" variants={itemVariants}>
-          {/* Pharmacy Assistant */}
-          <div>
-            <h3 className="text-lg font-semibold text-white relative inline-block">
-              Pharmacy Assistant (5 months)
-              <motion.span
-                className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-300 origin-left"
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              ></motion.span>
-            </h3>
-            <ul className="list-disc list-inside text-sm text-white/90 mt-1">
-              <li>
-                Developed strong knowledge of common illnesses, active
-                pharmaceutical ingredients, and appropriate medication
-                recommendations.
-              </li>
-              <li>
-                Gained practical skills in customer interaction, active
-                listening, and providing tailored guidance to diverse
-                individuals.
-              </li>
-              <li>
-                Maintained high attention to detail in a fast-paced retail
-                environment.
-              </li>
-            </ul>
-          </div>
-
-          {/* HR Trainee */}
-          <div>
-            <h3 className="text-lg font-semibold text-white relative inline-block">
-              HR Trainee – Logistics (Shipping & Warehousing) (4 months)
-              <motion.span
-                className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-300 origin-left"
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-              ></motion.span>
-            </h3>
-            <ul className="list-disc list-inside text-sm text-white/90 mt-1">
-              <li>
-                Collected, organized, and analyzed employee and operational data
-                using Microsoft Excel and other tools.
-              </li>
-              <li>
-                Worked efficiently under tight deadlines while maintaining
-                accuracy and professionalism.
-              </li>
-              <li>
-                Strengthened collaboration skills by working closely with
-                cross-functional teams.
-              </li>
-            </ul>
-          </div>
-
           {/* Director & Cameraperson */}
           <div>
             <h3 className="text-lg font-semibold text-white relative inline-block">
@@ -156,7 +98,7 @@ export default function WorkDetails() {
               <motion.span
                 className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-300 origin-left"
                 initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
+                whileInView={{ scaleX: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
               ></motion.span>
@@ -204,6 +146,67 @@ export default function WorkDetails() {
               </li>
             </ul>
           </div>
+
+          {/* Pharmacy Assistant */}
+          <div>
+            <h3 className="text-lg font-semibold text-white relative inline-block">
+              Pharmacy Assistant (5 months)
+              <motion.span
+                className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-300 origin-left"
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              ></motion.span>
+            </h3>
+            <ul className="list-disc list-inside text-sm text-white/90 mt-1">
+              <li>
+                Developed strong knowledge of common illnesses, active
+                pharmaceutical ingredients, and appropriate medication
+                recommendations.
+              </li>
+              <li>
+                Gained practical skills in customer interaction, active
+                listening, and providing tailored guidance to diverse
+                individuals.
+              </li>
+              <li>
+                Maintained high attention to detail in a fast-paced retail
+                environment.
+              </li>
+            </ul>
+          </div>
+
+          {/* HR Trainee */}
+          <div>
+            <h3 className="text-lg font-semibold text-white relative inline-block">
+              HR Trainee – Logistics (Shipping & Warehousing) (4 months)
+              <motion.span
+                className="absolute bottom-0 left-0 w-full h-0.5 bg-yellow-300 origin-left"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+              ></motion.span>
+            </h3>
+            <ul className="list-disc list-inside text-sm text-white/90 mt-1">
+              <li>
+                Collected, organized, and analyzed employee and operational data
+                using Microsoft Excel and other tools.
+              </li>
+              <li>
+                Worked efficiently under tight deadlines while maintaining
+                accuracy and professionalism.
+              </li>
+              <li>
+                Strengthened collaboration skills by working closely with
+                cross-functional teams.
+              </li>
+            </ul>
+          </div>
+
+
+
         </motion.div>
       </motion.div>
     </div>
