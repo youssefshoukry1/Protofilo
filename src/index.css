@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+ 
+}
+
+.d-none {
+    display: none;
+}
+::selection {
+  background: #f7b731; /* ذهبي فاتح */
+  color: #ffffff; /* نص أبيض */
+}
+
+::-moz-selection {
+  background: #f7b731;
+  color: #ffffff;
+}
