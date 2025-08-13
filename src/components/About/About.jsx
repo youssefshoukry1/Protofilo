@@ -55,7 +55,7 @@ export default function About() {
             return (
               <a
                 key={index}
-                href="/public/Emmy_Resume.pdf" // حط ملف الـ PDF في public بنفس الاسم
+                 href="/Emmy_Resume.pdf" // حط ملف الـ PDF في public بنفس الاسم
                 download
               >
                 <motion.div
