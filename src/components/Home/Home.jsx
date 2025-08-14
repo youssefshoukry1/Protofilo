@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* الزر */}
       <button onClick={() => {
-        document.getElementById("about").scrollIntoView({behavior:"smooth"})
+        document.getElementById("about-section").scrollIntoView({behavior:"smooth"})
       }} className= " outline-none relative mt-6 px-6 py-2 bg-yellow-300 text-[#222] font-semibold rounded-full shadow-md hover:bg-yellow-400 hover:scale-105 transition-all duration-300 animate-fadeIn">
         Show Who I Am
       </button>
