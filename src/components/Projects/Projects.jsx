@@ -9,11 +9,11 @@ import "./Projects.css"; // تأكد إن ملف CSS فيه النقط دي
 
 export default function Projects() {
   const cards = [
-    { title: "Embty", path: "" },
-    { title: "Embty", path: "" },
-    { title: "Embty", path: "" },
-    { title: "Embty", path: "" },
-    { title: "Embty", path: "" },
+    { title: "Empty", path: "" },
+    { title: "Empty", path: "" },
+    { title: "Empty", path: "" },
+    { title: "Empty", path: "" },
+    { title: "Empty", path: "" },
   ];
 
   const cardVariants = {
