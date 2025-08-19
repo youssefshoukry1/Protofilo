@@ -78,7 +78,7 @@ export default function Navbar() {
 >
   <button
     onClick={() => handleNavClick(path, id)}
-    className="text-white drop-shadow-lg text-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:text-yellow-300 bg-transparent border-none outline-none"
+    className="text-white drop-shadow-lg lg:text-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:text-yellow-300 bg-transparent border-none outline-none"
   >
     {name}
   </button>

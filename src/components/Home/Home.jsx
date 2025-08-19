@@ -1,11 +1,9 @@
 import React from 'react';
-import img from '../../assets/img/IMG-20250810-WA0025.jpg';
 import '../../components/Home/Home.module.css';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import { motion } from "framer-motion";
-
 export default function Home() {
   return (
     <>
@@ -19,7 +17,7 @@ export default function Home() {
 
       {/* صورة البروفايل */}
       <img
-        src={img}
+        src='/IMG-20250810-WA0025.jpg'
         className="relative w-48 h-48 rounded-full shadow-2xl object-cover animate-fadeIn"
         alt="Emy Refaat Profile"
       />
